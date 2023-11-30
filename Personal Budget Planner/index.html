@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <title>Personal Budget Planner</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Personal Budget Planner</h1>
+    </header>
+
+    <form>
+    <div class="incomeContainer">
+        <h2>Monthly Income</h2>
+        <div>
+            Income: $
+            <input type="number" placeholder="Amount" class="amount" id="incomeInput"/> 
+            <input type="text" placeholder="Description" size="10" id="incomeDesc"/>
+            <button id="incomeBtn">+</button><br>
+        </div>
+        <br>
+        <h3>Income Record</h3>
+        <div class="incomeRecord"></div>
+        <div id="totalIncome"></div> 
+    </div>
+
+    <div class="expenseContainer">
+        <h2>Monthly Expenses</h2>
+        <div>
+            Expense: $
+            <input type="number" placeholder="Amount" class="amount" id="expenseInput"/>
+            <input type="text" placeholder="Description" size="10" id="expenseDesc"/>
+            <select name="expenseType" id="expenseTypes">
+                <option value="Needs">Needs</option>
+                <option value="Wants">Wants</option>
+                <option value="Savings">Savings</option>
+            </select>
+            <button id="expenseBtn">+</button><br>
+        </div>
+        <br>
+        <h3>Expense Record</h3>
+        <div class="expenseRecord"></div>
+        <div id="totalExpense"></div> 
+    </div>
+    </form>
+
+    <div class="allocationContainer">
+        <h2>Budget Allocation</h2>
+        <div class="needsBudget"></div>
+        <div class="wantsBudget"></div>
+        <div class="savingsBudget"></div>
+        <br>
+        <div class="needsTotal"></div>
+        <div class="wantsTotal"></div>
+        <div class="savingsTotal"></div>
+        <br>
+        <div class="budgetLeft"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

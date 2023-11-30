@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* t makes sure that the padding and border of an element are included in its total width and height */
+    }
+
+body {
+    background-color: #2e3a47;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    padding: 2%;
+}
+
+header {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    width: auto;
+}
+
+.incomeContainer, .expenseContainer, .allocationContainer{
+    flex-direction: column;
+    margin: 20px 25%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.incomeContainer {
+    background: #1bb418;
+    color: white;
+}
+
+.expenseContainer {
+    background-color: #e26868;
+    color: white;
+}
+
+.allocationContainer {
+    background-color: #ffe7a9;
+}
+
+form input, form button, form select {
+    padding: 0.5rem;
+    margin: 5px;
+    font-size: 1.2rem;
+    border: none;
+    background: white;
+    border-radius: 5px;
+}
+
+form button {
+    color: #1ab418;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #91e191;
+    color: white;
+}
+
+.amount {
+    width: 150px;
+}
+
+.incomeAmount {
+    width: 150px;
+    background-color: #159813;
+}
+
+.expenseAmount {
+    width: 150px;
+    background-color: #981327;
+}
+
+.incomeDesc, .expenseDesc {
+    width: 150px;
+    background-color: white;
+    color: #022104;
+}
+
+.deleteRecord {
+    color: #d33232;
+}
+
+.deleteRecord:hover {
+    background: #d33232;
+    color: white;
+}
+
+.incomeRecord, .expenseRecord {
+    display: block;
+}
