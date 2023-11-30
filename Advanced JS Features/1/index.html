@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stop Dance Game</title>
+</head>
+<body>
+    <!-- Create audio element -->
+    <audio id="myAudio" src="danceMusic.mp3"></audio>
+
+    <!-- Create buttons for play and stop -->
+    <button id="danceButton">Let's Dance</button>
+    <button id="stopButton">Stop Music</button>
+    <div>
+        <h2 id="danceMoves"></h2>
+        <h3>Use your computer keyboard to set your dance moves!</h3>
+        <ul>
+            <li>Spin - <span class="key w">W</span></li>
+            <li>Moonwalk - <span class="key a">A</span></li>
+            <li>Robot - <span class="key s">S</span></li>
+            <li>Shuffle - <span class="key d">D</span></li>
+            <li>Freestyle - <span class="key any">Any</span></li>
+            <li>Stop - <span class="key any">Q</span></li>
+        </ul>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

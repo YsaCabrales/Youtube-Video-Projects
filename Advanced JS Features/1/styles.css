@@ -1,0 +1,50 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    margin: 10%;
+    background-image: linear-gradient(to right, #611577, #1f3381);
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #c046cb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover {
+    background-color: #ff5c8d;
+}
+
+#danceMoves {
+    font-size: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.key {
+    text-align: center;
+    font-weight: bold;
+    padding: 7px;
+    background: #eaeaea;
+    border: solid 2px black;
+    border-radius: 10px;
+    color: #701279;
+}
+
